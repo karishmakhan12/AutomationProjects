@@ -1,4 +1,4 @@
-package Gmail;
+package com.gmail;
 
 import java.io.IOException;
 import java.util.ArrayList;

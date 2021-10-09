@@ -1,4 +1,4 @@
-package Gmail;
+package com.gmail;
 
 public class Constant {
 	public static final String WEB_ADDRESS ="http://gmail.com";

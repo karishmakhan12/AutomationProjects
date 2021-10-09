@@ -1,4 +1,4 @@
-package common;
+package com.gmail;
 
 public class CommonConstant {
 
