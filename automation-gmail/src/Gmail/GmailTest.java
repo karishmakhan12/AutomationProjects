@@ -65,7 +65,7 @@ public class GmailTest {
 			Runtime.getRuntime().exec(Constant.FILE_ADDRESS);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Constant.SELECTED_SEND)));
 			findElementByXpath(Constant.SELECTED_SEND).click();
-			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Constant.SELECTED_BACK)));
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Constant.SELECTED_BACK))); 
 			findElementByXpath(Constant.SELECTED_BACK).click();
 		}
 	}
